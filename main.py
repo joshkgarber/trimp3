@@ -26,7 +26,7 @@ def parse_args():
         exit(1)
 
     if not dirpath.is_dir():
-        print(f"Path '{audio_path}' is not a valid directory.")
+        print(f"Path '{dirpath}' is not a valid directory.")
         exit(1)
 
     return dirpath
